@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treloo</title>
+    <link rel="stylesheet" href="lib/stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand nav-logo" href="#">Treloo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="me-auto"></ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Review</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Alerts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-btn" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main section starts here -->
+    <main>
+      <!-- hero section starts here -->
+      <section class="container-fluid hero-section">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8 hero-text">
+            <h2>
+              Discover Your Life, Travel <br />
+              Where You Want
+            </h2>
+            <p>
+              Would you explore nature paradise in the world, let's find the
+              best
+              <br />
+              destination in world with us.
+            </p>
+            >
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </section>
+      <!-- Notification section starts here -->
+      <div class="d-flex col-3 notify">
+        <div>
+          <p>
+            <img src="lib/images/Airplane Mode On.png" alt="" />
+            Flight
+          </p>
+        </div>
+        <div>
+          <p>
+            <img src="lib/images/Hotel Star.png" alt="" />
+            Hotel
+          </p>
+        </div>
+      </div>
+      <section class="container notif-section">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10">
+            <div class="row">
+              <div class="col-5">
+                <div class="destination-1">
+                  <div>
+                    <p class="p-1">Leaving From</p>
+                    <p class="p-2">Dubai</p>
+                  </div>
+                  <div>
+                    <img src="lib/images/Elipse plane.png" alt="" />
+                  </div>
+                  <div>
+                    <p class="p-1">Going to</p>
+                    <p class="p-2">New York</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="destination-2">
+                  <div>
+                    <p class="p-1">
+                      Leave
+                      <span
+                        ><img src="lib/images/Airplane Mode On.png" alt=""
+                      /></span>
+                    </p>
+                    <p class="p-2">23 Jan, Sat</p>
+                  </div>
+                  <div>
+                    <img src="lib/images/calendar.png" alt="" />
+                  </div>
+                  <div>
+                    <p class="p-1">
+                      Return
+                      <span
+                        ><img src="lib/images/Airplane Mode On 1.png" alt=""
+                      /></span>
+                    </p>
+                    <p class="p-2">14 Jan, Thu</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1 search-btn">
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass search-icon"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </section>
+      <!-- special offers section starts here -->
+      <section class="container offers-section">
+        <h3>Special Upcoming Offers</h3>
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-lg-5 col-2 offer-empty"></div>
+          <div class="col-1">
+            <div
+              class="btn-group offer-btn"
+              role="group"
+              aria-label="Basic example"
+            >
+              <button type="button" class="btn btn-primary offer-button team">
+                Team
+              </button>
+              <button type="button" class="btn btn-primary offer-button">
+                Couple
+              </button>
+              <button type="button" class="btn btn-primary offer-button">
+                Family
+              </button>
+            </div>
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card offer-card">
+              <img
+                src="lib/images/card1-img.png"
+                class="card-img-top offer-card-img"
+                alt="..."
+              />
+              <div class="card-body offer-body">
+                <div class="offer-type">
+                  <p class="relax">Relax</p>
+                  <p class="days">3 Days, 3 Nights</p>
+                </div>
+                <h5 class="card-title">Loga Sea</h5>
+                <div class="book-section">
+                  <p>700$ <span class="person">/Person</span></p>
+                  <a href="#" class="book-btn">Book Now</a>
+                </div>
+                <div class="offer-date">
+                  <p>14 FEB 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card offer-card">
+              <img
+                src="lib/images/card2-img.png"
+                class="card-img-top offer-card-img"
+                alt="..."
+              />
+              <div class="card-body offer-body">
+                <div class="offer-type">
+                  <p class="ad">Adventure</p>
+                  <p class="days">4 Days, 3 Nights</p>
+                </div>
+                <h5 class="card-title">Ansgar Scheffold</h5>
+                <div class="book-section">
+                  <p>400$ <span class="person">/Person</span></p>
+                  <a href="#" class="book-btn">Book Now</a>
+                </div>
+                <div class="offer-date">
+                  <p>18 JUN 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card offer-card">
+              <img
+                src="lib/images/card3-img.png"
+                class="card-img-top offer-card-img"
+                alt="..."
+              />
+              <div class="card-body offer-body">
+                <div class="offer-type">
+                  <p class="relax">Relax</p>
+                  <p class="days">7 Days, 6 Nights</p>
+                </div>
+                <h5 class="card-title">Lona X</h5>
+                <div class="book-section">
+                  <p>340$ <span class="person">/Person</span></p>
+                  <a href="#" class="book-btn">Book Now</a>
+                </div>
+                <div class="offer-date">
+                  <p>22 DEC 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section starts here -->
+      <section class="container">
+        <div class="row contact-container">
+          <div class="col-lg-6 col-md-4 col-12 ct-img">
+            <img src="lib/images/contact-img.png" alt="" class="contact-img" />
+            <div class="destin">
+              <h3>300+</h3>
+              <p>DESTINATIONS</p>
+            </div>
+            <div class="tour">
+              <h3>5000+</h3>
+              <p>TOURISTS</p>
+            </div>
+            <div class="hotels">
+              <h3>150+</h3>
+              <p>HOTELS</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-8 col-12 contact-text">
+            <h5>Travel Any Corner of The World With Us</h5>
+            <p>
+              Would you explore nature paradise in the world, let's find the
+              best destination in world with us, Would you explore nature
+              paradise in the world, let's find the best destination in world
+              with us. Would you explore nature paradise in the world, let's
+              find the best destination in world with us.
+            </p>
+
+            <p class="para-2">
+              Would you explore nature paradise in the world, let's find
+              <br />the best destination in world with us.
+            </p>
+            <a href="" class="contact-btn"> Contact Us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recommendation section starts here -->
+      <section class="container rec-section">
+        <h5 class="rec-main">Recommended Destination</h5>
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-lg-5 col-1"></div>
+          <div class="col-1">
+            <div
+              class="btn-group offer-btn"
+              role="group"
+              aria-label="Basic example"
+            >
+              <button type="button" class="btn btn-primary offer-button team">
+                Popular
+              </button>
+              <button type="button" class="btn btn-primary offer-button">
+                Adventure
+              </button>
+              <button type="button" class="btn btn-primary offer-button">
+                Beath
+              </button>
+            </div>
+          </div>
+          <div class="col-5"></div>
+        </div>
+
+        <div class="row rec-main-car">
+          <div class="col-xl-3 col-md-6">
+            <div class="card rec-card">
+              <img
+                src="lib/images/rec-1.png"
+                class="card-img-top rec-card-img"
+                alt="..."
+              />
+              <div class="card-body rec-body">
+                <h5 class="card-title">Kina Mountain</h5>
+                <div class="location">
+                  <img src="lib/images/Location.png" alt="" />
+                  <p>Cambodia</p>
+                </div>
+                <div class="rating">
+                  <img src="lib/images/Star.png" alt="" />
+                  <p>3.4</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6">
+            <div class="card rec-card">
+              <img
+                src="lib/images/rec-2.png"
+                class="card-img-top rec-card-img"
+                alt="..."
+              />
+              <div class="card-body rec-body">
+                <h5 class="card-title">Kina Mountain</h5>
+                <div class="location">
+                  <img src="lib/images/Location.png" alt="" />
+                  <p>Cambodia</p>
+                </div>
+                <div class="rating">
+                  <img src="lib/images/Star.png" alt="" />
+                  <p>4.5</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6">
+            <div class="card rec-card">
+              <img
+                src="lib/images/rec-3.png"
+                class="card-img-top rec-card-img"
+                alt="..."
+              />
+              <div class="card-body rec-body">
+                <h5 class="card-title">Kina Mountain</h5>
+                <div class="location">
+                  <img src="lib/images/Location.png" alt="" />
+                  <p>Cambodia</p>
+                </div>
+                <div class="rating">
+                  <img src="lib/images/Star.png" alt="" />
+                  <p>4.2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6">
+            <div class="card rec-card">
+              <img
+                src="lib/images/rec-4.png"
+                class="card-img-top rec-card-img"
+                alt="..."
+              />
+              <div class="card-body rec-body">
+                <h5 class="card-title">Kina Mountain</h5>
+                <div class="location">
+                  <img src="lib/images/Location.png" alt="" />
+                  <p>Cambodia</p>
+                </div>
+                <div class="rating">
+                  <img src="lib/images/Star.png" alt="" />
+                  <p>3.5</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reviews Section starts here -->
+      <section class="container">
+        <div class="row">
+          <div class="col">
+            <div class="cardd">
+              <p class="rev-1">
+                Our trip to Morocco was truly a once in a lifetime <br />
+                experience and we are so grateful to everyone <br />
+                that made it happen seamlessly. Our travel <br />
+                planner, Jaouad, was increadible.
+              </p>
+              <p class="rev-2">-Vand D</p>
+              <p class="rev-3">Happy Treloo</p>
+            </div>
+            <div>
+              <img src="lib/images/girl.png" alt="" class="cardd-img" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="cardd">
+              <p class="rev-1">
+                Our trip to Morocco was truly a once in a lifetime <br />
+                experience and we are so grateful to everyone <br />
+                that made it happen seamlessly. Our travel <br />
+                planner, Jaouad, was increadible.
+              </p>
+              <p class="rev-2">-Vand D</p>
+              <p class="rev-3">Happy Treloo</p>
+            </div>
+            <div>
+              <img src="lib/images/boy.png" alt="" class="cardd-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Registration section starts here -->
+      <section class="container reg-section">
+        <div class="row reg-row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8 reg-main">
+            <h5>Don't Miss The 50% Discount if <br />You register Today</h5>
+            <a href="">Register Today</a>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section starts here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-5 foot-text">
+            <p>&copy;2022 Treloo LLC - All right reserved.</p>
+          </div>
+          <div class="col-2"></div>
+          <div class="col-5">
+            <div class="foot-items">
+              <ul>
+                <a href=""><li>Review</li></a>
+                <a href=""><li>Tips</li></a>
+                <a href=""><li>Alerts</li></a>
+                <a href=""><li>Blog</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
